@@ -71,8 +71,7 @@ namespace ConvertDocToHTML.Controllers
 
 
 
-            NReco.VideoConverter.FFMpegConverter wrap = new FFMpegConverter();
-            wrap.Invoke("-i C:\\work\\input.mp4 -i C:\\work\\watermark.png -filter_complex \"overlay=10:10\" C:\\work\\Output.mp4");
+
             // ...and start a viewer.
             //  Process.Start(filename);
             return View();
